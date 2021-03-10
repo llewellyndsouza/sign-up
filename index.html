@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Sign Up</title>
+  </head>
+  <body>
+    <div class="preheader">
+      <div class="userforgot">
+        Already have an Intuit account? <br />
+        <a href="#">I forgot my User ID or Password</a>
+      </div>
+      <button class="btn-signin">Sign In</button>
+    </div>
+    <header>
+      <img
+        class="header-logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Intuit_Logo.svg/1200px-Intuit_Logo.svg.png"
+        alt="INTUIT Logo"
+      />
+      <br />
+      <img class="header-sublogos" src="./sublogo.png" alt="sublogos" />
+    </header>
+    <div class="wrapper">
+      <div class="container">
+        <p class="title">Create an Intuit account</p>
+        <p class="sub-title">
+          One account for everything Intuit, including Mint.<br /><a href="#"
+            >Learn more</a
+          >
+        </p>
+        <label>
+          Email address: <br />
+          <input type="email" name="newuseremail" id="newuseremail" />
+        </label>
+        <label>
+          Phone: <br />
+          <input type="tel" name="newuserphone" id="newuserphone" />
+          <span id="subtext">Standard call, messaging or data rates may apply.</span>
+        </label>
+        <label>
+          Password: <br />
+          <input type="password" name="newuserpass" id="newuserpass" />
+        </label>
+        <button class="formsubmit">Create Account</button>
+        <p><em>By clicking Create Account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy Statement</a>.</em></p>
+        <div class="disclaimer">
+          <br>
+          <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
